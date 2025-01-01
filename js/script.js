@@ -31,7 +31,7 @@ $(document).on('click', function () {
 
 
 // Countdown timer for the wedding date
-const countDownDate = new Date("April 15, 2025 12:00:00").getTime();
+const countDownDate = new Date("March 15, 2025 12:00:00").getTime();
 
 // Update the countdown every second
 const x = setInterval(function () {
@@ -90,5 +90,5 @@ const styles2 = [
     'font-size: 32px'
 ].join(';');
 
-console.log('%c SAVE THE DATE: 15th April, 2022', styles);
-console.log('%cYour presence is requested!%c\n\nRegards: Harshal & Nandini', styles1, styles2);
+console.log('%c SAVE THE DATE: 15th March, 2022', styles);
+console.log('%cYour presence is requested!%c\n\nRegards: Akshay & Sushma', styles1, styles2);
